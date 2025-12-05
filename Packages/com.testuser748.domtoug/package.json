@@ -1,0 +1,26 @@
+{
+  "name": "com.testuser748.domtoug",
+  "displayName": "DOMtoUGUI",
+  "version": "0.1.0",
+  "unity": "2022.3",
+  "description": "Unity Editor tool that generates uGUI Canvas hierarchies from DOM/HTML-derived JSON.",
+  "keywords": [
+    "uGUI",
+    "dom",
+    "html",
+    "importer",
+    "editor"
+  ],
+  "author": {
+    "name": "test-user748",
+    "url": "https://github.com/test-user748"
+  },
+  "samples": [
+    {
+      "displayName": "Calendar UI JSON",
+      "description": "Sample JSON that generates a reservation-style calendar UI.",
+      "path": "Samples~/sample_calendar_ui.json"
+    }
+  ]
+}
+
