@@ -1,7 +1,7 @@
 {
   "name": "DOMtoUGUI Listing",
   "id": "com.testuser748.domtoug.listing",
-  "url": "https://raw.githubusercontent.com/test-user748/DOMtoUGUI/main/index.json",
+  "url": "https://raw.githubusercontent.com/test-user748/DOMtoUGUI/feat/vcc-package/index.json",
   "packages": {
     "com.testuser748.domtoug": {
       "versions": {
@@ -11,7 +11,7 @@
           "version": "0.1.0",
           "unity": "2022.3",
           "description": "Unity Editor tool that generates uGUI Canvas hierarchies from DOM/HTML-derived JSON.",
-          "url": "https://raw.githubusercontent.com/test-user748/DOMtoUGUI/main/dist/com.testuser748.domtoug-0.1.0.zip",
+          "url": "https://raw.githubusercontent.com/test-user748/DOMtoUGUI/feat/vcc-package/dist/com.testuser748.domtoug-0.1.0.zip",
           "zipSHA256": "58596C29129344516259085E74CC61884B1B2293887540BE0AA643CCDA384B45",
           "author": {
             "name": "test-user748",
