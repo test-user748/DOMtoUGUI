@@ -1,0 +1,117 @@
+{
+  "root": {
+    "type": "panel",
+    "name": "CalendarRoot",
+    "layout": {
+      "type": "vertical",
+      "padding": { "top": 16, "bottom": 16, "left": 16, "right": 16 },
+      "spacing": 10,
+      "alignment": "upperCenter"
+    },
+    "style": {
+      "backgroundColor": { "r": 0.95, "g": 0.95, "b": 0.98, "a": 1 }
+    },
+    "children": [
+      {
+        "type": "text",
+        "name": "Title",
+        "text": "Reservations",
+        "style": {
+          "fontSize": 28,
+          "textColor": { "r": 0.12, "g": 0.15, "b": 0.25, "a": 1 }
+        }
+      },
+      {
+        "type": "panel",
+        "name": "Header",
+        "layout": {
+          "type": "horizontal",
+          "spacing": 6,
+          "alignment": "middleCenter"
+        },
+        "style": {
+          "backgroundColor": { "r": 1, "g": 1, "b": 1, "a": 1 },
+          "cornerRadius": 6
+        },
+        "children": [
+          { "type": "button", "name": "PrevButton", "text": "<" },
+          {
+            "type": "text",
+            "name": "MonthLabel",
+            "text": "2024 November",
+            "style": { "fontSize": 20 }
+          },
+          { "type": "button", "name": "NextButton", "text": ">" }
+        ]
+      },
+      {
+        "type": "container",
+        "name": "Weekdays",
+        "layout": {
+          "type": "horizontal",
+          "spacing": 4,
+          "alignment": "middleCenter"
+        },
+        "children": [
+          { "type": "text", "text": "Sun", "style": { "fontSize": 16 } },
+          { "type": "text", "text": "Mon", "style": { "fontSize": 16 } },
+          { "type": "text", "text": "Tue", "style": { "fontSize": 16 } },
+          { "type": "text", "text": "Wed", "style": { "fontSize": 16 } },
+          { "type": "text", "text": "Thu", "style": { "fontSize": 16 } },
+          { "type": "text", "text": "Fri", "style": { "fontSize": 16 } },
+          { "type": "text", "text": "Sat", "style": { "fontSize": 16 } }
+        ]
+      },
+      {
+        "type": "container",
+        "name": "DaysGrid",
+        "layout": {
+          "type": "grid",
+          "columns": 7,
+          "cellSize": { "x": 64, "y": 48 },
+          "spacing": 4,
+          "alignment": "upperCenter"
+        },
+        "children": [
+          { "type": "button", "text": "27" },
+          { "type": "button", "text": "28" },
+          { "type": "button", "text": "29" },
+          { "type": "button", "text": "30" },
+          { "type": "button", "text": "31" },
+          { "type": "button", "text": "1" },
+          { "type": "button", "text": "2" },
+          { "type": "button", "text": "3" },
+          { "type": "button", "text": "4" },
+          { "type": "button", "text": "5" },
+          { "type": "button", "text": "6" },
+          { "type": "button", "text": "7" },
+          { "type": "button", "text": "8" },
+          { "type": "button", "text": "9" },
+          { "type": "button", "text": "10" },
+          { "type": "button", "text": "11" },
+          { "type": "button", "text": "12" },
+          { "type": "button", "text": "13" },
+          { "type": "button", "text": "14" },
+          { "type": "button", "text": "15" },
+          { "type": "button", "text": "16" },
+          { "type": "button", "text": "17" },
+          { "type": "button", "text": "18" },
+          { "type": "button", "text": "19" },
+          { "type": "button", "text": "20" },
+          { "type": "button", "text": "21" },
+          { "type": "button", "text": "22" },
+          { "type": "button", "text": "23" },
+          { "type": "button", "text": "24" },
+          { "type": "button", "text": "25" },
+          { "type": "button", "text": "26" },
+          { "type": "button", "text": "27" },
+          { "type": "button", "text": "28" },
+          { "type": "button", "text": "29" },
+          { "type": "button", "text": "30" },
+          { "type": "button", "text": "1" },
+          { "type": "button", "text": "2" }
+        ]
+      }
+    ]
+  }
+}
